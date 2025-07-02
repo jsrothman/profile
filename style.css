@@ -1,8 +1,9 @@
+
 h1{
     text-align: center; 
     margin:0px;
     font-family: 'Trebuchet MS'; 
-    font-size: 400%
+    font-size: 9vw
 }
 table {
     border-collapse: collapse;
@@ -24,7 +25,7 @@ a:hover{
     color: gray;
 }
 body{
-    max-width: 900px;
+    max-width: 21cm;
     margin: 0 auto;
     font-family: 'Trebuchet MS';
     background-color: #ededed;
@@ -35,11 +36,11 @@ p{
 .box{
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 19cm;
   margin: auto;
   justify-content: center;
 }
 .item{
-  padding: 10px;
+  padding: 5px;
   width: fit-content;
 }
