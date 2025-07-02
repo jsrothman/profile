@@ -15,11 +15,6 @@ h1{
     box-shadow: 0px 1px 10px #333;
 }
 
-@media only screen and (max-width: 600px){
-    h1{
-        font-size: 250%;
-    }
-}
 table {
     border-collapse: collapse;
     text-align: left;
@@ -65,3 +60,34 @@ p{
     margin: auto; 
     padding: 5px 30px
 }
+.box2{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 19cm;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+.p{
+  font-size: 120%;
+  text-align: left;
+  width: 350px
+}
+.ac{
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 250%;
+    }
+    .ac{
+      width: 90%;
+    }
+    .box2{
+      justify-content: center;
+      row-gap: 15px;
+    }
+}
+
