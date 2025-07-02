@@ -81,7 +81,8 @@ p {
   align-items: flex-start;
   background-color: #e0e0e0;
   border-radius: 10px;
-  border: 5px solid #e0e0e0;
+  border: 10px solid #e0e0e0;
+  box-shadow: 0px 0px 5px #999;
 }
 
 .box3 {
@@ -99,20 +100,32 @@ p {
 .p {
   font-size: 90;
   text-align: left;
-  width: 340px
+  width: 330px
 }
 
 .ac {
   width: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #555;
 }
 
-video {
+video ,iframe{
   z-index: 1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #555;
+}
+
+video:hover ,iframe:hover{
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  width: 100%;
 }
 
 .press {
   border: 1px solid #999;
   box-shadow: 0px 0px 10px #999;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 600px) {
