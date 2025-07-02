@@ -69,8 +69,19 @@ p{
   align-items: flex-start;
   padding-bottom: 20px;
 }
+.box3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70px;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
 .p{
-  font-size: 120%;
+  font-size: 110%;
   text-align: left;
   width: 350px
 }
@@ -83,11 +94,16 @@ p{
         font-size: 250%;
     }
     .ac{
-      width: 90%;
+      width: 75%;
     }
     .box2{
       justify-content: center;
       row-gap: 15px;
+    }
+    .box3{
+      width: 100%;
+      padding-bottom: 0px;
+      column-gap: 45px;
     }
 }
 
