@@ -1,8 +1,9 @@
 h1 {
   text-align: center;
   margin: 0px;
-  font-family: 'Trebuchet MS';
+  font-family: 'Arial';
   font-size: 400%;
+  letter-spacing: 4px;
 }
 
 .title {
@@ -11,8 +12,18 @@ h1 {
   top: 0;
   background-color: #ededed;
   width: 100%;
-  box-shadow: 0px 1px 10px #333;
+  box-shadow: 0px 1px 5px #333;
   z-index: 2;
+}
+
+.subt {
+    font-size: 20px; 
+    text-align: center;
+     margin: 0px;
+     padding: 0px;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+
 }
 
 table {
@@ -43,7 +54,7 @@ a:hover {
 body {
   max-width: 21cm;
   margin: 0 auto;
-  font-family: 'Trebuchet MS';
+  font-family: 'Arial';
   background-color: #ededed;
 }
 
@@ -66,7 +77,7 @@ p {
 }
 
 .text {
-  max-width: 580px;
+  max-width: 680px;
   margin: auto;
   padding: 5px 30px
 }
@@ -112,6 +123,7 @@ p {
 video ,iframe{
   z-index: 1;
   border-radius: 10px;
+  width: 75%;
   box-shadow: 0px 0px 7px #555;
 }
 
@@ -119,18 +131,19 @@ video:hover ,iframe:hover{
   z-index: 1;
   border-radius: 10px;
   box-shadow: 0px 0px 7px #000;
-  width: 100%;
+  width: 75%;
 }
 
 .press {
   border: 1px solid #999;
   box-shadow: 0px 0px 10px #999;
   border-radius: 10px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 250%;
+    font-size: 192%;
   }
 
   .ac {
@@ -150,6 +163,13 @@ video:hover ,iframe:hover{
 
   .item {
     font-size: 100%;
-    ;
+  }
+
+  video, iframe{
+    width: 100%;
+  }
+
+  video:hover, iframe:hover{
+    width: 101%;
   }
 }
