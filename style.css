@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url(/lato/Lato-Bold.ttf);
+}
+
 h1 {
   text-align: center;
   margin: 0px;
-  font-family: 'Arial';
+  font-family: 'Lato Bold';
   font-size: 400%;
   letter-spacing: 4px;
 }
@@ -54,7 +64,7 @@ a:hover {
 body {
   max-width: 21cm;
   margin: 0 auto;
-  font-family: 'Arial';
+  font-family: 'Lato';
   background-color: #ededed;
 }
 
