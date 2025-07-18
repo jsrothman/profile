@@ -15,7 +15,9 @@ h1 {
   font-size: 400%;
   letter-spacing: 4px;
 }
-
+b{
+  font-family: 'Lato Bold';
+}
 .title {
   position: fixed;
   left: 0;
@@ -25,7 +27,9 @@ h1 {
   box-shadow: 0px 1px 5px #333;
   z-index: 2;
 }
-
+h2,h3{
+  font-family: 'Lato Bold';
+}
 .subt {
     font-size: 20px; 
     text-align: center;
@@ -87,7 +91,7 @@ p {
 }
 
 .text {
-  max-width: 680px;
+  max-width: 650px;
   margin: auto;
   padding: 5px 30px
 }
